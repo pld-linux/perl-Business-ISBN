@@ -2,10 +2,11 @@
 Summary:	Business-ISBN perl module
 Summary(pl):	Modu³ perla Business-ISBN
 Name:		perl-Business-ISBN
-Version:	19990112
-Release:	3
+Version:	20001010
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
+Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Business/Business-ISBN-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
@@ -30,16 +31,10 @@ perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-(
-  cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Business/ISBN
-  sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
-)
-
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
-        Changes README
+gzip -9nf Changes README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
