@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Business-ISBN
 Name:		perl-Business-ISBN
 Version:	19990112
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Business/Business-ISBN-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Business/Business-ISBN-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Business-ISBN - work with International Standard Book Numbers
 
 %description -l pl
-Business-ISBN - modu³ umo¿liwiaj±cy pracê z ISBN (International Standard 
-Book Numbers)
+Business-ISBN - modu³ umo¿liwiaj±cy pracê z ISBN (International
+Standard Book Numbers)
 
 %prep
 %setup -q -n Business-ISBN-%{version}
