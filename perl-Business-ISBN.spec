@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Business
 %define	pnam	ISBN
-Summary:	Business-ISBN perl module
-Summary(pl):	Modu³ perla Business-ISBN
+Summary:	Business::ISBN perl module
+Summary(pl):	Modu³ perla Business::ISBN
 Name:		perl-Business-ISBN
 Version:	20001010
 Release:	7
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Business-ISBN - work with International Standard Book Numbers.
+Business::ISBN - work with International Standard Book Numbers.
 
 %description -l pl
-Business-ISBN - modu³ umo¿liwiaj±cy pracê z ISBN (International
+Business::ISBN - modu³ umo¿liwiaj±cy pracê z ISBN (International
 Standard Book Numbers).
 
 %prep
