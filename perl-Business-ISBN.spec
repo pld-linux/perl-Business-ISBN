@@ -3,7 +3,7 @@ Summary:	Business-ISBN perl module
 Summary(pl):	Modu³ perla Business-ISBN
 Name:		perl-Business-ISBN
 Version:	20001010
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -41,5 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/Business/ISBN.pm
-%{perl_sitearch}/auto/Business/ISBN
 %{_mandir}/man3/*
