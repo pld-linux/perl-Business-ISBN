@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Business
 %define	pnam	ISBN
-Summary:	Business::ISBN perl module
-Summary(pl):	Modu³ perla Business::ISBN
+Summary:	Business::ISBN - work with International Standard Book Numbers
+Summary(pl):	Business::ISBN - obs³uga numerów ISBN
 Name:		perl-Business-ISBN
 Version:	20001010
 Release:	8
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9f3be82ae9ab251a1d3780d243f10d6f
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Business::ISBN - work with International Standard Book Numbers.
 
 %description -l pl
-Business::ISBN - modu³ umo¿liwiaj±cy pracê z ISBN (International
-Standard Book Numbers).
+Business::ISBN to modu³ Perla umo¿liwiaj±cy pracê z ISBN
+(International Standard Book Numbers).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
