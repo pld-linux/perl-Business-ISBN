@@ -5,7 +5,7 @@ Summary:	Business::ISBN - work with International Standard Book Numbers
 Summary(pl):	Business::ISBN - obs³uga numerów ISBN
 Name:		perl-Business-ISBN
 Version:	20001010
-Release:	8
+Release:	9
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
