@@ -2,7 +2,7 @@
 %define		pdir	Business
 %define		pnam	ISBN
 Summary:	Business::ISBN - work with International Standard Book Numbers
-Summary(pl):	Business::ISBN - obs³uga numerów ISBN
+Summary(pl.UTF-8):   Business::ISBN - obsÅ‚uga numerÃ³w ISBN
 Name:		perl-Business-ISBN
 Version:	20001010
 Release:	9
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Business::ISBN - work with International Standard Book Numbers.
 
-%description -l pl
-Business::ISBN to modu³ Perla umo¿liwiaj±cy pracê z ISBN
+%description -l pl.UTF-8
+Business::ISBN to moduÅ‚ Perla umoÅ¼liwiajÄ…cy pracÄ™ z ISBN
 (International Standard Book Numbers).
 
 %prep
