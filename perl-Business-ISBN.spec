@@ -2,7 +2,7 @@
 %define		pdir	Business
 %define		pnam	ISBN
 Summary:	Business::ISBN - work with International Standard Book Numbers
-Summary(pl.UTF-8):   Business::ISBN - obsługa numerów ISBN
+Summary(pl.UTF-8):	Business::ISBN - obsługa numerów ISBN
 Name:		perl-Business-ISBN
 Version:	20001010
 Release:	9
