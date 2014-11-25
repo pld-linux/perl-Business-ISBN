@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Business
 %define		pnam	ISBN
+%include	/usr/lib/rpm/macros.perl
 Summary:	Business::ISBN - work with International Standard Book Numbers
 Summary(pl.UTF-8):	Business::ISBN - obsługa numerów ISBN
 Name:		perl-Business-ISBN
@@ -10,8 +10,9 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9f3be82ae9ab251a1d3780d243f10d6f
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Business-ISBN/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
