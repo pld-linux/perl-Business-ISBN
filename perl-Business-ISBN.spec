@@ -1,6 +1,5 @@
 %define		pdir	Business
 %define		pnam	ISBN
-%include	/usr/lib/rpm/macros.perl
 Summary:	Business::ISBN - work with International Standard Book Numbers
 Summary(pl.UTF-8):	Business::ISBN - obsługa numerów ISBN
 Name:		perl-Business-ISBN
